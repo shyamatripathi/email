@@ -1,3 +1,24 @@
+# Email API with Serverless
+A simple AWS Lambda-based email sending API using the Serverless Framework and Node.js that sends emails via SMTP.
+
+## Features
+- REST API endpoint for sending emails
+- Local development with `serverless-offline`
+- Uses environment variables for secure configuration
+- Includes error handling with appropriate HTTP status codes
+
+## Requirements
+- Node.js (v14+ recommended)
+- Serverless Framework installed globally (`npm install -g serverless`)
+- AWS account (for deployment) or offline mode for local testing
+- SMTP credentials (e.g., Gmail App Password)
+
+## Installation
+Clone the repository and install dependencies:
+```bash
+npm install
+
+
 ## Environment Variables
 Create a `.env` file in the root directory based on `.env.example`:
 EMAIL_USER=your_email@example.com
